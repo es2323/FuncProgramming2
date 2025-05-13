@@ -1,0 +1,33 @@
+{ 
+  "accounting": [
+    {
+      "firstName": "John",  
+      "lastName": "Doe",
+      "age": 23,
+      "address": {
+        "street": "123 Main St",
+        "zip": "12345"
+      }
+    }
+  ],
+  "sales": [
+    {
+      "firstName": "Sally", 
+      "lastName": "Green",
+      "age": 27,
+      "address": {
+        "street": "456 Main St",
+        "zip": "23456"
+      }
+    },
+    {
+      "firstName": "Jim",   
+      "lastName": "Galley",
+      "age": 41,
+      "address": {
+        "street": "789 Main St",
+        "zip": "34567"
+      }
+    }
+  ]
+}
