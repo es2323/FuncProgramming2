@@ -1,6 +1,6 @@
 # Functional Programming Projects: JSON Parser & Solar Data Pipeline
 
-📜 Project Overview
+#📜 Project Overview
 Two Python scripts demonstrating core functional programming principles:
 
 Recursive JSON Parser - Processes nested JSON structures immutably
