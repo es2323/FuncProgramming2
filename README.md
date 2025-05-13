@@ -1,73 +1,58 @@
 # Functional Programming Projects: JSON Parser & Solar Data Pipeline
 
-#📜 Project Overview
-Two Python scripts demonstrating core functional programming principles:
+[![Python Version](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Recursive JSON Parser - Processes nested JSON structures immutably
+Two Python scripts showcasing fundamental functional programming (FP) concepts.
 
-Solar Data Pipeline - Analyzes photovoltaic system metrics using pure transformations
+- **Recursive JSON Parser:** Demonstrates immutable processing of nested JSON structures.
+- **Solar Data Pipeline:** Illustrates the analysis of photovoltaic system metrics using pure transformations.
 
-Built with Python 3.8+ following strict FP paradigms.
+Built with Python 3.8+ adhering to strict functional programming paradigms.
 
-🔍 JSON Parser Features
-Core Functionality
-Depth-first parsing of arbitrarily nested JSON
+## 🔍 JSON Parser Features
 
-Immutable transformations preserving original data
+### Core Functionality
+- **Depth-first parsing:** Handles arbitrarily nested JSON structures.
+- **Immutable transformations:** Preserves the original JSON data during processing.
+- **Type-safe processing:** Differentiates and processes objects, arrays, and primitive types correctly.
 
-Type-safe processing for objects/arrays/primitives
+### FP Concepts Applied
+- ✔️ **Pure functions:** Functions with zero side effects, ensuring predictable output for the same input.
+- ✔️ **Recursive tree traversal:** Navigating the nested JSON structure using recursion.
+- ✔️ **Higher-order function composition:** Combining smaller, focused functions to achieve complex operations.
+- ✔️ **Persistent immutable data structures:** Working with data in a way that modifications create new structures instead of altering existing ones.
 
-FP Concepts Applied
-✔ Pure functions with zero side effects
-✔ Recursive tree traversal
-✔ Higher-order function composition
-✔ Persistent immutable data structures
+### Use Cases
+- Configuration file processing
+- API response normalization
+- Analysis of complex data structures
 
-Use Cases
-Configuration file processing
+## ☀️ Solar Data Pipeline Features
 
-API response normalization
+### Core Functionality
+- **ETL pipeline:** Extracts, transforms, and loads photovoltaic system metrics.
+- **Statistical aggregation:** Calculates voltage, current, and power aggregations.
+- **Temporal filtering:** Filters data by substation and specific dates.
 
-Complex data structure analysis
+### FP Concepts Applied
+- ✔️ **Map-Reduce transformations:** Applying functions to collections of data and then reducing the results.
+- ✔️ **Point-free function composition:** Defining functions without explicitly mentioning the arguments.
+- ✔️ **Monadic error handling:** Managing potential errors in a structured and predictable way.
+- ✔️ **Declarative data flow:** Describing the data processing steps rather than explicitly controlling the execution flow.
 
-☀️ Solar Data Pipeline Features
-Core Functionality
-ETL pipeline for photovoltaic metrics
+### Use Cases
+- Renewable energy monitoring
+- Smart grid analytics
+- Power generation reporting
 
-Statistical aggregation of voltage/current/power
+## 🧠 Key FP Principles
 
-Temporal filtering by substation and date
+| Principle          | JSON Parser | Data Pipeline |
+|--------------------|-------------|---------------|
+| **Immutability** | ✅          | ✅            |
+| **Recursion** | ✅          | ❌            |
+| **Pure Functions** | ✅          | ✅            |
+| **Function Composition** | ✅          | ✅            |
 
-FP Concepts Applied
-✔ Map-Reduce transformations
-✔ Point-free function composition
-✔ Monadic error handling
-✔ Declarative data flow
-
-Use Cases
-Renewable energy monitoring
-
-Smart grid analytics
-
-Power generation reporting
-
-🧠 Key FP Principles
-Principle	JSON Parser	Data Pipeline
-Immutability	✅	✅
-Recursion	✅	❌
-Pure Functions	✅	✅
-Function Composition	✅	✅
-🛠 Technical Foundation
-Libraries Used:
-
-json (standard library)
-
-functools.reduce
-
-werkzeug.security for hashing
-
-Runtime:
-
-No external dependencies (pure Python)
-
-Compatible with PyPy for performance
+## #functionalprogramming #python #jsonparsing #datapipeline #immutability #recursion #purefunctions #functioncomposition #opensource #github #readme #python3
